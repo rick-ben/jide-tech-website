@@ -1,0 +1,23 @@
+{
+  "name": "jide-tech-website",
+  "version": "1.0.0",
+  "description": "记得科技官方网站 - Vue 3 + Vite 纯静态企业官网，零后端极简搭建，100% 由灵犀 AI 助手开发",
+  "license": "MIT",
+  "keywords": ["vue3", "vite", "official-website", "static-site", "ai-generated", "lingxi"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1",
+    "highlight.js": "^11.11.1",
+    "marked": "^18.0.5",
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.2.0"
+  }
+}

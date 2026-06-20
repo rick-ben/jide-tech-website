@@ -1,0 +1,37 @@
+# ===== Dependencies =====
+node_modules/
+
+# ===== Build Output =====
+dist/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Env & Secrets =====
+.env
+.env.local
+.env.*.local
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+
+# ===== Vite =====
+.vite/
+
+# ===== Backup Files =====
+*.bak
+*.orig
+
+# ===== Temp =====
+.tmp/
+temp/
