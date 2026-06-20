@@ -33,7 +33,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-org/jide-tech-website.git
+git clone https://gitee.com/regaing/jide-tech-website.git
 cd jide-tech-website
 
 # 安装依赖
