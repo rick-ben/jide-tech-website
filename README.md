@@ -32,8 +32,11 @@
 ## 🚀 快速开始
 
 ```bash
-# 克隆项目
+# 克隆项目 (Gitee)
 git clone https://gitee.com/regaing/jide-tech-website.git
+
+# 克隆项目 (GitHub)
+git clone https://github.com/rick-ben/jide-tech-website
 cd jide-tech-website
 
 # 安装依赖
