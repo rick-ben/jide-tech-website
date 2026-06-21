@@ -17,7 +17,7 @@ export const products = [
       '接入 DeepSeek、OpenAI、Anthropic、Gemini 等 7 家主流大模型厂商，配备 35+ 内置工具，涵盖文件、搜索、代码、文档、图像、音频等全方位能力。',
     features: [
       { icon: 'bi-display', title: '多端覆盖', desc: '桌面端（Windows/Mac/Linux）、VS Code 扩展、CLI 终端，无缝适配各类工作场景' },
-      { icon: 'bi-cpu', title: '多模型接入', desc: '支持 7 家主流 AI 厂商，灵活切换不同模型，满足不同任务需求' },
+      { icon: 'bi-cpu', title: '全模型厂商接入', desc: '兼容 OpenAI、Anthropic、Gemini 三大标准协议，市面所有大模型均可自由接入，四模型槽智能调度' },
       { icon: 'bi-tools', title: '丰富工具集', desc: '35+ 内置工具，涵盖文件读写、代码搜索、办公文档、图像音频处理等' },
       { icon: 'bi-mic', title: '语音对话', desc: '支持连续语音对话模式，自动语音识别与播报，解放双手' },
       { icon: 'bi-shield-check', title: '安全可控', desc: '四层权限模型、本地优先处理，数据不上传云端，保障您的信息安全' },

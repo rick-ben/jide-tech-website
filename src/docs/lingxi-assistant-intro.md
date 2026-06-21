@@ -23,8 +23,8 @@
 ### 🖥️ 多端覆盖
 桌面端（Windows/Mac/Linux）、VS Code 扩展、CLI 终端三种交互方式，无缝适配各类工作场景。
 
-### 🧠 多模型接入
-支持 DeepSeek、OpenAI、Anthropic、Gemini、通义千问、Groq、Mistral 等 7 家主流 AI 厂商，灵活切换不同模型满足不同任务需求。
+### 🧠 全模型厂商接入
+兼容 OpenAI、Anthropic、Gemini 三大标准协议，市面所有大模型均可自由接入，四模型槽智能调度。
 
 ### 🛠️ 丰富工具集
 内置 35+ 工具，涵盖文件读写、代码搜索与编辑、Office 文档处理、图像识别与生成、语音合成与识别、Git 操作、SSH 远程连接、浏览器自动化等全方位能力。
