@@ -36,6 +36,10 @@
         </div>
         <div class="footer__col">
           <h4 class="footer__col-title">友链</h4>
+          <a href="https://lingxi.regaing.com" target="_blank" rel="noopener" class="footer__link">
+            <i class="bi bi-link-45deg" style="margin-right: 6px;"></i>
+            灵犀 AI 智能助手
+          </a>
           <a href="https://tool.regaing.cn/" target="_blank" rel="noopener" class="footer__link">
             <i class="bi bi-link-45deg" style="margin-right: 6px;"></i>
             记得网工具箱
