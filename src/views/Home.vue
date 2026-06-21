@@ -108,7 +108,7 @@ const values = [
   {
     icon: 'bi-cpu-fill',
     title: '智能驱动',
-    desc: '接入 7 家主流 AI 大模型，35+ 内置工具。AI 洞察你的意图，让每一次交互都高效精准。'
+    desc: '兼容 OpenAI、Anthropic、Gemini 三大协议，市面所有大模型自由接入，四模型槽智能调度。AI 洞察你的意图，让每一次交互都高效精准。'
   },
   {
     icon: 'bi-shield-lock-fill',

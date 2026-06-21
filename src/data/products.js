@@ -14,7 +14,7 @@ export const products = [
       '灵犀是一款面向所有人的 AI 智能助手，通过自然语言和语音完成工作。' +
       '命名来自「心有灵犀一点通」—— AI 洞察用户意图，一触即通。' +
       '支持桌面端、VS Code 扩展、CLI 终端三种产品形态，覆盖开发者、办公人员、项目经理等不同用户群体。' +
-      '接入 DeepSeek、OpenAI、Anthropic、Gemini 等 7 家主流大模型厂商，配备 35+ 内置工具，涵盖文件、搜索、代码、文档、图像、音频等全方位能力。',
+      '兼容 OpenAI、Anthropic、Gemini 三大标准协议，市面所有大模型均可自由接入，四模型槽智能调度，配备 35+ 内置工具，涵盖文件、搜索、代码、文档、图像、音频等全方位能力。',
     features: [
       { icon: 'bi-display', title: '多端覆盖', desc: '桌面端（Windows/Mac/Linux）、VS Code 扩展、CLI 终端，无缝适配各类工作场景' },
       { icon: 'bi-cpu', title: '全模型厂商接入', desc: '兼容 OpenAI、Anthropic、Gemini 三大标准协议，市面所有大模型均可自由接入，四模型槽智能调度' },
