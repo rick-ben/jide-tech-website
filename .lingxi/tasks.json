@@ -53,5 +53,161 @@
     "tags": [],
     "createdAt": 1781948605384,
     "updatedAt": 1781948721390
+  },
+  {
+    "id": "bc41a73fb21b",
+    "title": "创建 GitHub 仓库并推送代码",
+    "status": "done",
+    "priority": "medium",
+    "tags": [
+      "github",
+      "git"
+    ],
+    "createdAt": 1781952075324,
+    "updatedAt": 1781952262929
+  },
+  {
+    "id": "6e488e460cc5",
+    "title": "1. 通过 GitHub API 创建仓库",
+    "status": "cancelled",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1781952077706,
+    "updatedAt": 1781952088749
+  },
+  {
+    "id": "6fffff427b8e",
+    "title": "2. 添加 GitHub remote 并推送代码",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1781952077706,
+    "updatedAt": 1781952262929
+  },
+  {
+    "id": "57a4941bd8d1",
+    "title": "1. 通过 GitHub API 创建仓库（重试）",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1781952234843,
+    "updatedAt": 1781952241656
+  },
+  {
+    "id": "9afaffd57327",
+    "title": "分析项目结构，确定网站类型",
+    "status": "pending",
+    "priority": "high",
+    "tags": [],
+    "createdAt": 1782033750184,
+    "updatedAt": 1782033750184
+  },
+  {
+    "id": "1a8a2ecc6294",
+    "title": "分析项目结构，确定网站类型",
+    "status": "done",
+    "priority": "high",
+    "tags": [],
+    "createdAt": 1782033754712,
+    "updatedAt": 1782033765686
+  },
+  {
+    "id": "bef27c3181d0",
+    "title": "生成 nginx 伪静态配置",
+    "status": "done",
+    "priority": "high",
+    "tags": [],
+    "createdAt": 1782033754712,
+    "updatedAt": 1782033779811
+  },
+  {
+    "id": "d2e66f38fdf9",
+    "title": "查找包含\"多模型接入\"的文件",
+    "description": "在项目中搜索所有包含\"多模型接入\"相关内容的文件",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047614927,
+    "updatedAt": 1782047621048
+  },
+  {
+    "id": "4787f0be664c",
+    "title": "修改 products.js 中的多模型接入",
+    "description": "将 title 改为\"全模型厂商接入\"，desc 改为新描述",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047628190,
+    "updatedAt": 1782047641829
+  },
+  {
+    "id": "220441e25066",
+    "title": "修改 lingxi-assistant-intro.md 中的多模型接入",
+    "description": "将章节标题和描述改为全模型厂商接入",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047628190,
+    "updatedAt": 1782047641829
+  },
+  {
+    "id": "10817fd8c179",
+    "title": "提交并推送到两个代码托管平台",
+    "description": "git add, commit, push 到两个远程仓库",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047628191,
+    "updatedAt": 1782047668556
+  },
+  {
+    "id": "1d9ba554d5d5",
+    "title": "打包官网项目",
+    "description": "分析项目构建配置，执行构建打包命令",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047794657,
+    "updatedAt": 1782047806357
+  },
+  {
+    "id": "5cd2c46c71ce",
+    "title": "分析当前 SEO 元信息配置",
+    "description": "查看 index.html、路由 meta、vite 配置等 SEO 相关文件",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047842583,
+    "updatedAt": 1782047874374
+  },
+  {
+    "id": "42c4593a448e",
+    "title": "增强 index.html 静态 SEO 元信息",
+    "description": "添加 OG、Twitter Card、JSON-LD 结构化数据、keywords 等",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047874374,
+    "updatedAt": 1782047892443
+  },
+  {
+    "id": "d6ca4f233e69",
+    "title": "添加路由级动态 title/meta 管理",
+    "description": "在 router 中添加 afterEach 钩子和每个路由的 meta，实现页面级 title 和 description 切换",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047874374,
+    "updatedAt": 1782047895731
+  },
+  {
+    "id": "3aff6029a6fb",
+    "title": "验证构建并提交推送",
+    "description": "构建验证 SEO 元信息输出，提交并推送到两个平台",
+    "status": "done",
+    "priority": "medium",
+    "tags": [],
+    "createdAt": 1782047874374,
+    "updatedAt": 1782047920040
   }
 ]

@@ -86,8 +86,13 @@
               <i class="bi bi-rocket-takeoff-fill"></i> 快速访问
               <i class="bi bi-box-arrow-up-right"></i>
             </a>
+            <!-- npm 使用按钮 -->
+            <a v-if="product.npmLink" :href="product.npmLink" class="btn btn-outline" target="_blank" rel="noopener">
+              <i class="bi bi-box-seam"></i> npm 使用
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
             <!-- 开源产品：查看源码按钮 -->
-            <a v-else :href="product.link" class="btn btn-primary" target="_blank" rel="noopener">
+            <a v-if="product.linkType === 'source'" :href="product.link" class="btn btn-primary" target="_blank" rel="noopener">
               <i class="bi bi-github"></i> 查看源码
               <i class="bi bi-box-arrow-up-right"></i>
             </a>

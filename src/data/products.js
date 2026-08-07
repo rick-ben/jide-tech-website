@@ -18,7 +18,7 @@ export const products = [
     features: [
       { icon: 'bi-display', title: '多端覆盖', desc: '桌面端（Windows/Mac/Linux）、VS Code 扩展、CLI 终端，无缝适配各类工作场景' },
       { icon: 'bi-cpu', title: '全模型厂商接入', desc: '兼容 OpenAI、Anthropic、Gemini 三大标准协议，市面所有大模型均可自由接入，四模型槽智能调度' },
-      { icon: 'bi-tools', title: '丰富工具集', desc: '35+ 内置工具，涵盖文件读写、代码搜索、办公文档、图像音频处理等' },
+      { icon: 'bi-tools', title: '丰富工具集', desc: '50+ 内置工具，涵盖文件读写、代码搜索、办公文档、图像音频处理等' },
       { icon: 'bi-mic', title: '语音对话', desc: '支持连续语音对话模式，自动语音识别与播报，解放双手' },
       { icon: 'bi-shield-check', title: '安全可控', desc: '四层权限模型、本地优先处理，数据不上传云端，保障您的信息安全' },
       { icon: 'bi-lightning-charge', title: '流式响应', desc: '实时 Markdown 渲染，工具调用可视化，思考过程透明展示' },
@@ -29,6 +29,7 @@ export const products = [
     status: 'active',
     link: 'https://lingxi.regaing.com',
     linkType: 'access',
+    npmLink: 'https://www.npmjs.com/package/@lingxi-agent/core',
     logo: '/logo/lingxi.png'
   },
   {
@@ -53,6 +54,7 @@ export const products = [
     status: 'active',
     link: 'https://pwd.regaing.com',
     linkType: 'access',
+    npmLink: 'https://www.npmjs.com/package/@lingxi-agent/pwd-mcp',
     logo: '/logo/password.png'
   },
   {

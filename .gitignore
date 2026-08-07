@@ -7,9 +7,13 @@ dist/
 # ===== IDE / Editor =====
 .vscode/
 .idea/
+.run/
 *.swp
 *.swo
 *~
+
+# ===== Local Config =====
+nginx.conf
 
 # ===== OS Files =====
 .DS_Store
