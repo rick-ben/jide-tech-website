@@ -35,9 +35,9 @@
               <h3 class="doc-card__title">{{ doc.title }}</h3>
               <p class="doc-card__desc">{{ doc.description }}</p>
               <div class="doc-card__meta">
-                <span class="doc-card__date">
+                <time class="doc-card__date" :datetime="doc.date">
                   <i class="bi bi-calendar3"></i> {{ doc.date }}
-                </span>
+                </time>
                 <span class="doc-card__tags">
                   <span class="mini-tag" v-for="tag in doc.tags.slice(0, 3)" :key="tag">{{ tag }}</span>
                 </span>

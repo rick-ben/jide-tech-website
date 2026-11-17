@@ -6,55 +6,56 @@
  */
 export const products = [
   {
-    id: 'lingxi-assistant',
-    name: 'LingXi AI Assistant',
-    nameCN: '灵犀 AI 智能助手',
-    tagline: '心有灵犀一点通 — 面向所有人的 AI 智能助手',
+    id: 'nearwork',
+    name: 'AI 智能体',
+    nameCN: 'NearWork',
+    tagline: '事归其位，人得其所 — 装在自己电脑上的 AI 工作伙伴',
     description:
-      '灵犀是一款面向所有人的 AI 智能助手，通过自然语言和语音完成工作。' +
-      '命名来自「心有灵犀一点通」—— AI 洞察用户意图，一触即通。' +
-      '支持桌面端、VS Code 扩展、CLI 终端三种产品形态，覆盖开发者、办公人员、项目经理等不同用户群体。' +
-      '兼容 OpenAI、Anthropic、Gemini 三大标准协议，市面所有大模型均可自由接入，四模型槽智能调度，配备 35+ 内置工具，涵盖文件、搜索、代码、文档、图像、音频等全方位能力。',
+      'NearWork 是一款装在自己电脑上的多模型 AI 智能体：说一句话，它会读文件、跑命令、查网页、写文档、操作本机应用，把需求直接变成可交付的结果。' +
+      '通过 OpenAI、Anthropic、Gemini 三种标准协议接入 DeepSeek、通义千问、Kimi、智谱、豆包、OpenAI、Anthropic、Gemini 等 16 家模型供应商，官方额度与自带 API Key 随时切换。' +
+      '内置 75 个工具与 MCP 插件、22 个技能，覆盖 Windows / macOS / Linux 桌面端、命令行、VS Code 扩展与网页对话。' +
+      '配置、会话、技能与知识库都保存在本机，只有发给所选模型的请求会离开电脑。',
     features: [
-      { icon: 'bi-display', title: '多端覆盖', desc: '桌面端（Windows/Mac/Linux）、VS Code 扩展、CLI 终端，无缝适配各类工作场景' },
-      { icon: 'bi-cpu', title: '全模型厂商接入', desc: '兼容 OpenAI、Anthropic、Gemini 三大标准协议，市面所有大模型均可自由接入，四模型槽智能调度' },
-      { icon: 'bi-tools', title: '丰富工具集', desc: '50+ 内置工具，涵盖文件读写、代码搜索、办公文档、图像音频处理等' },
-      { icon: 'bi-mic', title: '语音对话', desc: '支持连续语音对话模式，自动语音识别与播报，解放双手' },
-      { icon: 'bi-shield-check', title: '安全可控', desc: '四层权限模型、本地优先处理，数据不上传云端，保障您的信息安全' },
-      { icon: 'bi-lightning-charge', title: '流式响应', desc: '实时 Markdown 渲染，工具调用可视化，思考过程透明展示' },
-      { icon: 'bi-grid-3x3-gap', title: '智能调度', desc: 'Agent Loop 自主执行 + 子 Agent 并行任务 + Skill 系统按需激活' },
-      { icon: 'bi-puzzle', title: '扩展生态', desc: '开放 MCP 协议集成，支持自定义 Skills 和 Hooks，能力无限扩展' }
+      { icon: 'bi-display', title: '多端覆盖', desc: 'Windows / macOS / Linux 桌面端、命令行、VS Code 扩展与网页对话，同一个引擎随处接续' },
+      { icon: 'bi-cpu', title: '16 家模型自由选', desc: '兼容 OpenAI / Anthropic / Gemini 三种主流协议，官方额度或自带 API Key，切换不丢上下文' },
+      { icon: 'bi-grid-3x3-gap', title: '七个模型槽位', desc: '极速、思考、视觉、图像编辑、语音生成、语音识别、向量嵌入各管一件事，成本与效果各归各位' },
+      { icon: 'bi-tools', title: '75 个内置工具', desc: '文件读写、命令执行、网页抓取、文档表格、图像语音，按任务需要加载，不乱塞给模型' },
+      { icon: 'bi-pc-display', title: '替你操作电脑', desc: '看屏幕、点鼠标、敲键盘，跨应用完成填表、点按、截图等重复操作' },
+      { icon: 'bi-mic', title: '语音与定时任务', desc: '连续语音对话，说出想法即可开工；定时任务无人值守，到点自动执行' },
+      { icon: 'bi-shield-check', title: '数据本地优先', desc: '配置、会话与知识库留在本机，API Key 加密存储，四种权限模式拦截危险操作' },
+      { icon: 'bi-people', title: '团队与扩展', desc: 'MCP 插件接外部服务，22 个内置技能按需激活，多智能体分工执行后自动汇总' }
     ],
-    techStack: ['TypeScript', 'Node.js', 'Electron', 'React 19', 'Tailwind CSS', 'VS Code Extension'],
+    techStack: ['桌面端', '命令行', 'VS Code 扩展', '网页对话', 'MCP'],
     status: 'active',
-    link: 'https://lingxi.regaing.com',
+    link: 'https://nearwork.regaing.com',
     linkType: 'access',
     npmLink: 'https://www.npmjs.com/package/@lingxi-agent/core',
-    logo: '/logo/lingxi.png'
+    logo: '/logo/nearwork.png'
   },
   {
     id: 'password-manager',
     name: 'Password Manager',
-    nameCN: '密码管理器',
-    tagline: '安全、高效的企业级密码管理方案',
+    nameCN: '记得 · 密码管理器',
+    tagline: '零信任架构 — 主密码从不离开你的设备',
     description:
-      '一款全功能密码管理器，支持密码存储、自动生成高强度密码、文件夹分类管理、TOTP 双重认证、密码健康度检测、数据导出导入等功能。' +
-      '采用端到端加密技术，确保您的数据只有您自己能访问。',
+      '一款零信任架构的密码管理器：所有敏感数据在浏览器端完成 AES-256-GCM 加密后才传输，服务端只保存密文——它拿不到你的主密码，也打不开你的保险库。' +
+      '登录采用 OPAQUE 协议（RFC 9807），主密码连派生值都不会离开设备。' +
+      '支持密码生成、文件夹分类、TOTP 二次验证、密码健康与泄露检测、加密导入导出；配套 Chrome 扩展自动填充，并提供 MCP 服务让 AI 助手安全取用账号。',
     features: [
-      { icon: 'bi-shield-lock-fill', title: '端到端加密', desc: 'AES-256 加密算法，数据传输与存储全程加密，确保密码安全无虞' },
-      { icon: 'bi-key-fill', title: '密码生成器', desc: '智能生成高强度随机密码，支持自定义长度、字符类型和特殊符号' },
-      { icon: 'bi-folder-fill', title: '文件夹管理', desc: '树形目录结构，自由创建文件夹，分类管理不同场景的账号密码' },
-      { icon: 'bi-phone-fill', title: 'TOTP 双因素认证', desc: '内置一次性验证码生成器，扫码即可绑定，告别额外的验证器 App' },
-      { icon: 'bi-heart-pulse-fill', title: '密码健康检测', desc: '自动检测弱密码、重复密码和过期密码，提供安全评分和改进建议' },
-      { icon: 'bi-box-arrow-up', title: '数据导入导出', desc: '支持加密 JSON 格式导出备份，随时迁移数据，掌控权完全在您手中' },
-      { icon: 'bi-globe2', title: '跨平台访问', desc: '支持桌面端、移动端，响应式设计自适应各种屏幕尺寸' },
-      { icon: 'bi-lightning-charge-fill', title: '自动填充扩展', desc: '配套浏览器扩展，一键自动填写登录表单，告别手动输入' }
+      { icon: 'bi-shield-lock-fill', title: '零信任加密', desc: '客户端加密后才上传，服务端零明文存储，拿不到主密码就打不开保险库' },
+      { icon: 'bi-key-fill', title: '主密码不出设备', desc: 'OPAQUE 登录协议（RFC 9807），服务端接触不到口令和口令派生值' },
+      { icon: 'bi-stars', title: '密码生成器', desc: '按长度与字符类型生成高强度随机密码，生成即存，不用自己编' },
+      { icon: 'bi-folder-fill', title: '文件夹管理', desc: '树形目录分类，工作、生活、财务各归其位，查找不用翻半天' },
+      { icon: 'bi-phone-fill', title: 'TOTP 二次验证', desc: '验证码内置生成，扫码即绑定，不必再装额外的验证器 App' },
+      { icon: 'bi-heart-pulse-fill', title: '健康与泄露检测', desc: '扫描弱密码、重复密码与已泄露密码，以 k-匿名方式核对，不上传明文' },
+      { icon: 'bi-lightning-charge-fill', title: 'Chrome 自动填充', desc: '配套浏览器扩展，登录时一键填写，告别手动输入和复制粘贴' },
+      { icon: 'bi-robot', title: 'AI 助手接入', desc: '提供 MCP 服务，AI 助手可代为查询取用账号；账号统一存放在本机加密文件' }
     ],
-    techStack: ['Vue 3', 'Element Plus', 'Pinia', 'Vite', 'Spring Boot', 'PostgreSQL'],
+    techStack: ['Web 管理端', 'Chrome 扩展', 'MCP', 'OPAQUE', 'AES-256-GCM', 'TOTP'],
     status: 'active',
     link: 'https://pwd.regaing.com',
     linkType: 'access',
-    npmLink: 'https://www.npmjs.com/package/@lingxi-agent/pwd-mcp',
+    npmLink: 'https://www.npmjs.com/package/credential-vault-mcp',
     logo: '/logo/password.png'
   },
   {

@@ -19,8 +19,8 @@
         </div>
         <div class="footer__col">
           <h4 class="footer__col-title">产品</h4>
-          <router-link to="/products#lingxi-assistant" class="footer__link">灵犀 AI 智能助手</router-link>
-          <router-link to="/products" class="footer__link">密码管理器</router-link>
+          <router-link to="/products#nearwork" class="footer__link">NearWork</router-link>
+          <router-link to="/products#password-manager" class="footer__link">记得 · 密码管理器</router-link>
           <router-link to="/products#lovers-nest" class="footer__link">情侣小窝</router-link>
         </div>
         <div class="footer__col">
@@ -36,13 +36,13 @@
         </div>
         <div class="footer__col">
           <h4 class="footer__col-title">友链</h4>
-          <a href="https://lingxi.regaing.com" target="_blank" rel="noopener" class="footer__link">
+          <a href="https://nearwork.regaing.com" target="_blank" rel="noopener" class="footer__link">
             <i class="bi bi-link-45deg" style="margin-right: 6px;"></i>
-            灵犀 AI 智能助手
+            NearWork
           </a>
-          <a href="https://tool.regaing.cn/" target="_blank" rel="noopener" class="footer__link">
+          <a href="https://pwd.regaing.com" target="_blank" rel="noopener" class="footer__link">
             <i class="bi bi-link-45deg" style="margin-right: 6px;"></i>
-            记得网工具箱
+            记得 · 密码管理器
           </a>
         </div>
       </div>

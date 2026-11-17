@@ -6,32 +6,32 @@
  */
 
 // Import markdown files as raw strings
-import lingxiAssistantIntroRaw from '@/docs/lingxi-assistant-intro.md?raw'
+import nearworkIntroRaw from '@/docs/nearwork-intro.md?raw'
 import passwordManagerIntroRaw from '@/docs/password-manager-intro.md?raw'
 import loversNestDeployRaw from '@/docs/lovers-nest-deploy.md?raw'
 import loversNestIntroRaw from '@/docs/lovers-nest-intro.md?raw'
 
 export const docs = [
   {
-    id: 'lingxi-assistant-intro',
-    title: '灵犀 AI 智能助手 - 产品介绍',
-    description: '了解灵犀 AI 智能助手的功能特性、多端形态、技术架构和适用场景',
+    id: 'nearwork-intro',
+    title: 'NearWork - 产品介绍',
+    description: '了解 NearWork 能做什么、怎么接入模型、支持哪些形态，以及数据与权限如何把控',
     category: '产品文档',
     categoryIcon: 'bi-book-fill',
-    tags: ['灵犀', 'AI 助手', '产品介绍'],
-    productId: 'lingxi-assistant',
-    date: '2026-06-20',
-    rawContent: lingxiAssistantIntroRaw
+    tags: ['NearWork', 'AI 智能体', '产品介绍'],
+    productId: 'nearwork',
+    date: '2026-11-16',
+    rawContent: nearworkIntroRaw
   },
   {
     id: 'password-manager-intro',
-    title: '密码管理器 - 产品介绍',
-    description: '了解密码管理器的功能特性、安全架构、技术方案和适用场景',
+    title: '记得 · 密码管理器 - 产品介绍',
+    description: '了解记得·密码管理器的零信任架构、安全机制、核心功能与使用方式',
     category: '产品文档',
     categoryIcon: 'bi-book-fill',
-    tags: ['密码管理器', '安全', '产品介绍'],
+    tags: ['密码管理器', '零信任', '产品介绍'],
     productId: 'password-manager',
-    date: '2026-06-20',
+    date: '2026-11-16',
     rawContent: passwordManagerIntroRaw
   },
   {

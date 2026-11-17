@@ -3,6 +3,8 @@ node_modules/
 
 # ===== Build Output =====
 dist/
+dist-ssr/
+/*.zip
 
 # ===== IDE / Editor =====
 .vscode/

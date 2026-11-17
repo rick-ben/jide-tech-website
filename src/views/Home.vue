@@ -14,7 +14,7 @@
           记所得，<span class="text-gradient">得所记</span>
         </h1>
         <p class="hero__desc animate-in" style="animation-delay: 0.2s">
-          从 AI 智能助手到数字工具，记得科技致力于打造安全、可靠、易用的数字化产品。<br />
+          从 AI 智能体到数字工具，记得科技致力于打造安全、可靠、易用的数字化产品。<br />
           让每一次记录都有价值，让每一份数据都有保障。
         </p>
         <div class="hero__actions animate-in" style="animation-delay: 0.3s">
@@ -28,7 +28,7 @@
       <div class="hero__illustration animate-in" style="animation-delay: 0.4s">
         <img
           src="/assets/images/hero-illustration.png"
-          alt="记得科技"
+          alt="记得科技产品界面预览：NearWork 多模型 AI 智能体"
           class="hero__img"
           @error="(e) => e.target.style.display = 'none'"
         />
@@ -106,14 +106,14 @@ import { getActiveProducts } from '@/data/products.js'
 
 const values = [
   {
-    icon: 'bi-cpu-fill',
-    title: '智能驱动',
-    desc: '兼容 OpenAI、Anthropic、Gemini 三大协议，市面所有大模型自由接入，四模型槽智能调度。AI 洞察你的意图，让每一次交互都高效精准。'
+    icon: 'bi-hdd-fill',
+    title: '数据自主',
+    desc: '能用本机完成的就不上传。密钥、会话、密码库都留在你自己的设备上，数据去哪里由你决定。'
   },
   {
     icon: 'bi-shield-lock-fill',
     title: '安全第一',
-    desc: '端到端加密、四层权限模型、本地优先处理。安全不是功能，是我们的基因。'
+    desc: '端到端加密、四层权限模式、危险操作拦截。安全不是功能，是我们的基因。'
   },
   {
     icon: 'bi-stars',

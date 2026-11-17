@@ -1,0 +1,33 @@
+# 记得科技
+
+> 记得科技（Jide Tech）是一家开发 AI 智能体与数字工具的软件公司，产品包括多模型桌面 AI 智能体 NearWork、零信任架构的密码管理器，以及微信小程序情侣小窝。官网：https://www.regaing.com
+
+## 产品
+
+- [NearWork](https://www.regaing.com/products#nearwork)：装在自己电脑上的多模型 AI 智能体。可在对话中读写本地文件、执行命令、抓取网页、操作本机应用，把一句话的需求变成可交付的结果。支持 Windows / macOS / Linux 桌面端、命令行、VS Code 扩展与网页对话。官网：https://nearwork.regaing.com
+- [记得 · 密码管理器](https://www.regaing.com/products#password-manager)：零信任架构的密码管理器。敏感数据在客户端完成 AES-256-GCM 加密后才传输，服务端只存密文；登录采用 OPAQUE 协议（RFC 9807），主密码不离开设备。提供 Web 管理端、Chrome 自动填充扩展与 MCP 接入。官网：https://pwd.regaing.com
+- [情侣小窝](https://www.regaing.com/products#lovers-nest)：基于微信云开发的情侣专属小程序，支持日记动态、共享相册与纪念日倒数，无需自建服务器。
+
+## 文档
+
+- [NearWork 产品介绍](https://www.regaing.com/docs/nearwork-intro)：产品定位、四种形态、模型接入与七槽位、工具与技能、权限模式与数据边界。
+- [记得 · 密码管理器 产品介绍](https://www.regaing.com/docs/password-manager-intro)：零信任架构、安全机制逐项说明、核心功能与 AI 助手接入方式。
+- [情侣小窝 产品介绍](https://www.regaing.com/docs/lovers-nest-intro)：小程序功能、使用场景与技术架构。
+- [情侣小窝 部署教程](https://www.regaing.com/docs/lovers-nest-deploy)：从零部署到云开发环境配置、数据库创建与云函数上线。
+
+## 关键事实
+
+- NearWork 通过 OpenAI、Anthropic、Gemini 三种协议接入 **16 家模型供应商**，包括 DeepSeek、通义千问、Kimi、智谱 GLM、豆包、MiniMax、文心一言、腾讯混元、阶跃星辰、OpenAI、Anthropic、Gemini、xAI Grok、Groq、Mistral、小米 MiMo。
+- NearWork 把模型按用途拆成 **7 个槽位**（极速、思考、视觉、图像编辑、语音生成、语音识别、向量嵌入），各槽位独立配置模型。
+- NearWork 内置 **75 个工具** 与 **22 个技能**，支持 MCP 插件扩展；工具按需加载，不需要时不会占用上下文。
+- NearWork 提供 **4 种权限模式**（常规、严格、自动、完全放行），写文件与执行命令默认需要确认。
+- NearWork 的配置、会话、技能与知识库保存在本机，只有发给所选模型的请求会离开电脑。
+- 密码管理器的保险库数据使用 **AES-256-GCM**，密钥由主密码经 **PBKDF2-SHA256（600,000 次）** 派生；服务端零明文存储，不保存口令派生值。
+- 密码管理器支持 **TOTP 二次验证**、**HIBP k-匿名泄露检测**（只发送 SHA-1 前 5 位）、会话使用 JWT 且不下发 Cookie、连续 5 次登录失败锁定 15 分钟。
+- 记得科技官网为静态站点，构建期预渲染，所有页面可直接抓取。
+
+## 可选
+
+- [站点地图](https://www.regaing.com/sitemap.xml)
+- [产品页](https://www.regaing.com/products)
+- [文档中心](https://www.regaing.com/docs)

@@ -74,18 +74,18 @@ renderer.image = function (token) {
 }
 
 // Custom table rendering — marked v18 cells are objects with .text
+// 单元格必须走 inline 解析（parseInline），否则 **加粗**、`代码`、链接会原样露出标记
 renderer.table = function (token) {
   const header = token.header || []
   const rows = token.rows || []
-  const cellText = (cell) => {
+  const cellHtml = (cell) => {
     if (typeof cell === 'string') return cell
-    if (cell && typeof cell.text === 'string') return cell.text
-    if (cell && cell.tokens) return extractText(cell.tokens)
-    return ''
+    if (cell && cell.tokens) return renderInline(this.parser, cell.tokens)
+    return cell?.text || ''
   }
-  const headerHtml = '<thead><tr>' + header.map(c => `<th>${cellText(c)}</th>`).join('') + '</tr></thead>'
+  const headerHtml = '<thead><tr>' + header.map(c => `<th>${cellHtml(c)}</th>`).join('') + '</tr></thead>'
   const bodyHtml = '<tbody>' + rows.map(row =>
-    '<tr>' + row.map(c => `<td>${cellText(c)}</td>`).join('') + '</tr>'
+    '<tr>' + row.map(c => `<td>${cellHtml(c)}</td>`).join('') + '</tr>'
   ).join('') + '</tbody>'
   return `<div class="table-wrapper"><table>${headerHtml}${bodyHtml}</table></div>`
 }

@@ -13,9 +13,9 @@
         <h1 class="doc-header__title">{{ doc.title }}</h1>
         <p class="doc-header__desc">{{ doc.description }}</p>
         <div class="doc-header__meta">
-          <span class="doc-header__date">
+          <time class="doc-header__date" :datetime="doc.date">
             <i class="bi bi-calendar3"></i> {{ doc.date }}
-          </span>
+          </time>
           <span class="doc-header__category tag">
             <i :class="`bi ${doc.categoryIcon}`"></i> {{ doc.category }}
           </span>
